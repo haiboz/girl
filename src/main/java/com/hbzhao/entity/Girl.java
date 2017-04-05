@@ -1,27 +1,15 @@
 package com.hbzhao.entity;
 
-
-//import org.springframework.data.annotation.Id;
-//
-//import javax.persistence.GeneratedValue;
-
-//import javax.persistence.GeneratedValue;
-
-//import javax.persistence.GeneratedValue;
-
-import org.hibernate.annotations.Entity;
-import org.springframework.data.annotation.Id;
-
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 
 /**
  * Created by 浮生若梦 on 2017/3/31.
  */
-//@org.hibernate.annotations.Entity
 @Entity
 public class Girl {
-
     @Id
     @GeneratedValue
     private Integer id;

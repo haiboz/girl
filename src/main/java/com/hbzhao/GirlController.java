@@ -18,4 +18,5 @@ public class GirlController {
     public String sayHello(){
         return "Hello Spring boot." + girlProperties.getCupSize();
     }
+
 }
